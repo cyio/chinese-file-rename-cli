@@ -1,0 +1,23 @@
+{
+  "name": "rename-cn-file-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/index.js files/*.*"
+  },
+  "bin": {
+    "rename-cn-file": "bin/index.js"
+  },
+  "keywords": [],
+  "author": "oaker",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cyio/rename-cn-file-cli.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "shelljs-nodecli": "^0.1.1"
+  }
+}
